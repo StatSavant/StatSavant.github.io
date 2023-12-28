@@ -10,10 +10,11 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('https://github.com/StatSavant/StatSavant.github.io/blob/main/DataScience_1.png'); 
+            background-image: url('https://raw.githubusercontent.com/StatSavant/StatSavant.github.io/main/DataScience_1.png'); 
             background-size: cover;
             background-position: center;
             color: #fff;
+            background-color: #333; /* Dark theme background color */
         }
 
         header {
@@ -21,23 +22,26 @@
             padding: 50px 20px;
         }
 
-        section {
-            margin: 40px 20px;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9);
-            border-radius: 10px;
-        }
-
-        h1, h2 {
-            color: #333;
-            background-color: rgba(76, 76, 76, 0.7); /* Semi-transparent white background for better visibility */
-            display: inline-block; /* Prevents background from taking full width */
-            padding: 10px; /* Add padding for better readability */
-            border-radius: 10px; /* Add border-radius for a rounded look */
+        h1 {
+            color: #ffcc00; /* Title color - yellow for good visibility on dark background */
+            font-size: 2.5em; /* Increase font size for better impact */
+            margin-bottom: 10px;
         }
 
         p {
-            color: #666;
+            color: #ddd; /* Light gray text color */
+            font-size: 1.2em; /* Slightly larger font size for better readability */
+        }
+
+        section {
+            margin: 40px 20px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background for content */
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #ffcc00; /* Section title color - yellow for contrast */
         }
 
         ul {
@@ -53,7 +57,7 @@
             text-align: center;
             margin-top: 20px;
             padding: 10px;
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background for footer */
             border-radius: 10px;
         }
     </style>
